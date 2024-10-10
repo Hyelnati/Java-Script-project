@@ -1,0 +1,120 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aside</title>
+    <!-- <style>
+      aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+      }
+      div {
+        background-color: blueviolet;
+      }
+    </style> -->
+<!-- <style>
+      div p {
+        margin-right: 20%;
+      }
+      aside {
+        font-style: italic;
+        margin-left: 400px;
+        padding-left: 100px;
+        width: 50%;
+        position: absolute;
+
+        float: right;
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        From the moment they are born, young children are learning about who
+        they are and how they fit into the world around them. Through social
+        interactions with peers and caregivers, they become increasingly aware
+        of themselves and begin to develop a personal identity. This discovery
+        of self is an important part of social and emotional development that
+        continues throughout childhood. As educators and caregivers, we can
+        support this discovery process through thoughtful curriculum planning
+        and supportive interactions.
+      </p>
+      <aside>
+        <p>
+          to see, get knowledge of, learn of, find, or find out; gain sight or
+          knowledge of (something previously unseen or unknown) to discover
+          America. to discover electricity.
+        </p>
+      </aside>
+      <p>
+        I enjoy speaking with young tenagers or children to help them discover
+        themselves early enough.
+      </p>
+
+      <p>
+        This means so much to me. Helping them start early in life and not being
+        confused about what to do is what brings me joy.
+      </p>
+    </div>
+  </body>
+</html> -->
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Text Effect</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+      }
+      .icon-container {
+        position: relative;
+        display: inline-block;
+        font-size: 50px;
+      }
+      .hover-text {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s;
+        pointer-events: none;
+      }
+      .icon-container:hover .hover-text {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icon-container">
+      <i class="fab fa-facebook"></i>
+      <span class="hover-text">Facebook</span>
+    </div>
+  </body>
+</html>
